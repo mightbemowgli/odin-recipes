@@ -7,15 +7,26 @@
     <title>Remy's Recipes</title>
 </head>
 <body class="mainpage">
+  <!-- separate into divs, make use of classes and ids -->
     <h1>Remy's Recipes</h1>
     <h2>"Anyone can cook." - Auguste Gusteau</h2>
     <img src="./photos/remy.gif" alt="an animated photo of a rat in a chef's hat">
-    <div class="recipe-menu">
-      <ul>
-        <li><a href="recipes/french-onion-soup.html" target="_blank">French Onion Soup</a></li>
-        <li><a href="recipes/steak.html" target="_blank">Steak au Poivre</a></li>
-        <li><a href="recipes/ratatouille.html" target="_blank">Ratatouille</a></li>
-      </ul>
-    </div>
+    <main id="recipe-menu">
+      <!-- <div class="card-one"> -->
+        <a href="recipes/french-onion-soup.html" target="_blank" class="btn">
+          French Onion Soup
+        </a>
+      <!-- </div> -->
+      <!-- <div class="card-two"> -->
+        <a href="recipes/steak.html" target="_blank" class="btn">
+          Steak au Poivre
+        </a>
+      <!-- </div> -->
+      <!-- <div class="card-three"> -->
+        <a href="recipes/ratatouille.html" target="_blank" class="btn">
+          Ratatouille
+        </a>
+      <!-- </div> -->
+    </main>
 </body>
 </html>
