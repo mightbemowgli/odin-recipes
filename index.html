@@ -4,29 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;1,400&family=Suez+One&display=swap" rel="stylesheet">
     <title>Remy's Recipes</title>
 </head>
-<body class="mainpage">
-  <!-- separate into divs, make use of classes and ids -->
-    <h1>Remy's Recipes</h1>
-    <h2>"Anyone can cook." - Auguste Gusteau</h2>
-    <img src="./photos/remy.gif" alt="an animated photo of a rat in a chef's hat">
-    <main id="recipe-menu">
-      <!-- <div class="card-one"> -->
-        <a href="recipes/french-onion-soup.html" target="_blank" class="btn">
-          French Onion Soup
-        </a>
-      <!-- </div> -->
-      <!-- <div class="card-two"> -->
-        <a href="recipes/steak.html" target="_blank" class="btn">
-          Steak au Poivre
-        </a>
-      <!-- </div> -->
-      <!-- <div class="card-three"> -->
-        <a href="recipes/ratatouille.html" target="_blank" class="btn">
-          Ratatouille
-        </a>
-      <!-- </div> -->
-    </main>
+<body>
+  <main>
+  <!-- Hero Section -->
+  <div class="hero__image">
+    <div class="hero__text">
+      <h1>Remy's Recipes</h1>
+      <h2>"Anyone can cook, but only the fearless can be great." </h2>
+    </div>
+  </div>
+  <!-- Recipe Cards -->
+  <div class="recipe__container">
+    <div class="recipe__card card__one">
+      <h3>Steak au Poivre</h3>
+    </div>
+    <div class="recipe__card card__two">
+      <h3>French Onion Soup</h3>
+    </div>
+    <div class="recipe__card card__three">
+      <h3>Ratatouille</h3>
+    </div>
+  </div>
+  </main>
+  <footer class="footer">
+    © 2023 The Odin Project
+  </footer>
 </body>
 </html>
