@@ -19,6 +19,17 @@ main {
     flex: 1 0 auto;
 }
 
+a {
+    text-decoration: none;
+    background-color: ivory;
+    padding: 8px 15px;
+    color: darkorange;
+}
+
+a:hover {
+    font-size: 18px;
+}
+
 /* Hero Section */
 
 .hero__image {
@@ -65,15 +76,20 @@ main {
     flex-shrink: 0;
     width: 400px;
     height: 40vh;
-    margin: 1rem;
+    margin: 1em;
     text-align: center;
     background-color: lightblue;
-    color: ivory;
-    text-shadow: 1px 1px 2px black;
 }
 
 .recipe__card h3 {
-    padding: 5px;
+    color: ivory;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.recipe__card p {
+    text-align: left;
+    padding: 1em;
 }
 
 /* Footer */
